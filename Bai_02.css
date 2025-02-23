@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* phân đầu */
+.head{
+    
+}
+.head hr{
+  width: 1440px;
+left: 1440px;
+angle: -180 deg;
+opacity: 0.3;
+border-width: 0.5px;
+
+}
+
+.head_top{
+    width: 1440px;
+    height: 48px;
+    background: #000000; 
+   text-align: center;
+  display: flex;
+  align-items: center;
+}
+.head_top_content{
+  color:#fff;
+ top: 20px;
+   padding-left: 450px;
+}
+.head_top_content  option{
+ background-color: #000000;
+}
+ 
+.head_top_content a{
+  color: #fff;  
+} 
+.item1{
+ margin-left: 200px;
+ 
+}
+.head .head_bottom a{
+    text-decoration: none;
+}
+.head .head_bottom .content{
+  margin-top: 30px;
+}
+.head .head_bottom .content .item1{
+   margin-right: 100px; 
+  font-family: Inter;
+font-weight: 700px;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 3%;
+}
+.head .head_bottom .content .item2{
+  font-family: Poppins;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-left: 100px;
+}
+.head .head_bottom .content .item3{
+position: absolute;
+margin-left: 300px;
+}
+.head .head_bottom .content .item3 .text{
+  width: 243px;
+  height: 25px;
+  border-radius: 6px;
+  padding-top: 7px;
+  padding-right: 12px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  border: none;
+  background-color: azure;
+}
+.head .head_bottom .content .item3 .icon{
+  position: relative;
+  right: 40px;
+  opacity: 0.5;
+  font-size: 19px;
+}
+
+/* phần thân  */
+.dear{
+
+}
+.dear .container{
+  display: flex;
+flex-direction: row;
+margin-left: 100px;
+gap: 100px;
+
+}
+.dear .container .content1 {
+  display: flex;
+  flex-direction: row;
+  border-left: 1px solid #000000;
+}
+.dear .container .content1 .item{
+  background-color: #000000;
+  color: #fff;
+  padding-top: 40px;
+  padding-left: 70px;
+  width: 290px;
+  height: 288px;
+}
+.dear .container hr{
+ height: 300px;
+
+}
