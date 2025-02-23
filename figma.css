@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+/* Phần đầu */
+.header {
+    background-color: black;
+    color: white;
+    width: 1440px;
+    height: 48px;
+    line-height: 50px;
+}
+
+.header .content {
+    margin-left: 450px;
+}
+
+.header .option {
+    position: absolute;
+    margin-left: 1200px;
+    top: 15px;
+    color: white;
+    background-color: black;
+}
+
+.header .title {
+    color: white;
+    font-weight: 700;
+}
+
+.header .about {
+    color: black;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header .text {
+    text-align: right;
+    margin-left: 430px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+.header .search {
+    width: 250px;
+    height: 30px;
+    margin-left: 170px;
+}
+
+.header i {
+    font-size: 13px;
+    position: absolute;
+    top: 74px;
+    right: 155px;
+}
+
+/* Phần thân */
+.main .bg {
+    margin-top: 70px;
+}
+
+.main .title_main {
+    margin-left: 450px;
+    letter-spacing: 3px;
+}
+
+.main .title1 {
+    margin-left: 450px;
+}
+
+.main .title2 {
+    margin-left: 150px;
+}
+
+.main .login {
+    margin-left: 450px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 300px;
+    height: 50px;
+}
+
+.main .button {
+    margin-left: 450px;
+    height: 43px;
+    width: 80px;
+    background-color: rgba(219, 68, 68, 255);
+    color: white;
+    border-radius: 6px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+/* phần cuối */
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section input {
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.footer-section button {
+    padding: 5px 10px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-section img {
+    max-width: 100px;
+    margin-top: 5px;
+}
+
+.app-links img {
+    max-width: 120px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid;
+    color: gray;
+}
